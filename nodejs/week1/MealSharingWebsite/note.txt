@@ -1,4 +1,0 @@
-  // "main": "src/backend/index.js",
-
-       //"start": "node src/backend/index.js",
-    //"deve": "nodemon src/backend/index.js"
