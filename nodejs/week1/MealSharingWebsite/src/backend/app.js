@@ -37,7 +37,7 @@ var randomReservationRoute = require('./Routes/R06_randomReservation');
 app.use('/reservation', randomReservationRoute);
 
 app.use(function(req, res) {
-  res.send('This is not a valid address. <br> Try one of these routes: <br>1. /meals <br>2. /cheap-meals <br>3. /large-meals <br>4. /meal <br>5. /reservations <br>6. /reservation <br>')
+  res.send('This is not a valid address. <br> Try one of these route: <br>1. /meals <br>2. /cheap-meals <br>3. /large-meals <br>4. /meal <br>5. /reservations <br>6. /reservation <br>')
 });
 //******************************************* */
 
